@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/superior_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    superior_raphael-user \
+    superior_raphael-userdebug \
+    superior_raphael-eng
