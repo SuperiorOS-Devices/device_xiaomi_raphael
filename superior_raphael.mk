@@ -24,3 +24,11 @@ PRODUCT_NAME := superior_raphael
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# SuperiorOS stuff.
+SUPERIOR_BUILD_TYPE := OFFICIAL
+EXTRA_FOD_ANIMATIONS := true
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.superior.maintainer=HSgod
