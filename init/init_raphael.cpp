@@ -48,11 +48,20 @@ void load_raphaelin() {
     property_override("ro.build.description", "raphaelin-user 10 QKQ1.190825.002 V12.0.0.9.QFKINXM release-keys");
 }
 
-void load_raphael() {
-    property_override("ro.product.model", "Redmi K20 Pro");
-    property_override("ro.build.product", "raphael");
-    property_override("ro.product.device", "raphael");
-    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.8.0.QFKCNXM release-keys");
+void load_raphaelin()
+{
+	property_override("ro.product.model", "Redmi K20 Pro");
+	property_override("ro.build.product", "raphaelin");
+	property_override("ro.product.device", "raphaelin");
+	property_override("ro.build.description", "raphaelin-user 10 QKQ1.190825.002 V12.0.2.0.QFKINXM release-keys");
+}
+
+void load_raphael()
+{
+	property_override("ro.product.model", "Redmi K20 Pro");
+	property_override("ro.build.product", "raphael");
+	property_override("ro.product.device", "raphael");
+	property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V12.0.2.0.QFKCNXM release-keys");
 }
 
 
