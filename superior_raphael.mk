@@ -9,9 +9,6 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common Superior stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
-# Inherit from ANXCamera vendor.
-$(call inherit-product, vendor/ANXCamera/config.mk)
-
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 

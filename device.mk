@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
