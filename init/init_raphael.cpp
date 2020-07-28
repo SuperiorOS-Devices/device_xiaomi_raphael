@@ -69,5 +69,5 @@ void vendor_load_properties() {
         LOG(ERROR) << __func__ << ": unexcepted region!";
     }
 
-    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
+    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 }
