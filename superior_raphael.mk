@@ -24,6 +24,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 SUPERIOR_BUILD_TYPE := OFFICIAL
 EXTRA_FOD_ANIMATIONS := true
 
+# Launcher
+TARGET_LAUNCHER := oplauncher
+
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.superior.maintainer=HSgod
